@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(199, 199, 248);
+}
+
+h1{
+    font-size: 24;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    font-size: 20;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+.row{
+    margin-top: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+h3{
+    margin-top: 10px;
+}
+h4{
+    font-size: 14;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.dropdown{
+    margin-top: 10px;
+}
+a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div{
+    margin-right: 10px;
+    margin-left: 100px;
+}
+.form-check{
+    margin-left: 0px;
+}
+#Button{
+    text-align: end;
+}
+footer{
+    font-size: 16;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 20px;
+}
