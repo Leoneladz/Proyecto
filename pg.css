@@ -2,57 +2,76 @@ body {
     background-color: rgb(199, 199, 248);
 }
 
-h1{
+h1 {
     font-size: 24;
     font-weight: bolder;
     text-decoration: underline;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 20;
     color: blueviolet;
     font-weight: bolder;
     text-decoration: underline;
     text-align: center;
 }
-.row{
+
+.row {
     margin-top: 20px;
 }
-img{
+
+img {
     height: 200px;
     width: 200px;
 }
-h3{
+
+h3 {
     margin-top: 10px;
 }
-h4{
+
+h4 {
     font-size: 14;
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
 
 }
-.dropdown{
+
+.dropdown {
     margin-top: 10px;
 }
-a{
+
+a {
     margin-top: 10px;
     margin-left: 10px;
 }
-div{
+
+div {
     margin-right: 10px;
     margin-left: 100px;
 }
-.form-check{
+
+.form-check {
     margin-left: 0px;
 }
-#Button{
+
+#Button {
     text-align: end;
 }
-footer{
+
+footer p {
     font-size: 16;
     color: white;
     background-color: blueviolet;
     text-align: center;
     margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-align: right;
+    margin-top: 20px;
+
+
 }
