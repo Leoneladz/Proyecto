@@ -16,7 +16,71 @@ h2 {
     text-decoration: underline;
     text-align: center;
 }
-
+/* organización de los items que estan como menu
+*/
+nav {
+    display: flex ;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5% ;
+    padding-right: 5% ;
+    margin: 0 ;
+    height: 50px;
+    }
+    
+    ul li{
+        display: inline-block;
+        padding: 0px 0px;
+        align-items: center;
+        
+    }
+    
+    /*color del texto dentro del nav
+    */
+    nav a{
+        
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    /*efecto que obtiene el menu cuando se sobrepone el mouse antes de dar click
+    */
+    nav ul li:hover{
+        background-color: #9e65e9;
+        color: #fff;
+        border-radius: 20px;
+       
+       
+    }
+    
+    .menu {
+        margin: 0;
+        margin-top: 10px;
+        background-color: rgb(182, 182, 250);
+      
+        
+    
+    }
+    
+    /*todo el css aplicado a la imagen principal
+    */
+    .encabezado-img{
+        display: flex;
+        background-image: url(img.logo/Slide\ principal.png);
+        margin: 0;
+        margin-top: 10px;
+        height: 400px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #1d0236;
+        
+    }
+    
 .row {
     margin-top: 20px;
 
