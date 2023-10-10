@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(199, 199, 248);
+    background-color: rgb(184, 153, 224);
 }
 
 h1 {
@@ -11,10 +11,19 @@ h1 {
 
 h2 {
     font-size: 20;
-    color: blueviolet;
+    color: rgb(244, 242, 247);
     font-weight: bolder;
-    text-decoration: underline;
+    text-decoration:wavy;
     text-align: center;
+}
+.menu {
+    margin: 0;
+    margin-top: 10px;
+    background-color: rgb(149, 34, 243);
+    
+  
+    
+
 }
 /* organización de los items que estan como menu
 */
@@ -22,6 +31,7 @@ nav {
     display: flex ;
     font-weight: bold;
     text-align: center;
+    
     justify-content: space-between;
     padding-top: 10px;
     padding-left: 5% ;
@@ -35,6 +45,7 @@ nav {
         padding: 0px 0px;
         align-items: center;
         
+        
     }
     
     /*color del texto dentro del nav
@@ -42,7 +53,7 @@ nav {
     nav a{
         
         color: white;
-        text-decoration: none;
+        text-decoration:none;
     
     }
     
@@ -56,14 +67,7 @@ nav {
        
     }
     
-    .menu {
-        margin: 0;
-        margin-top: 10px;
-        background-color: rgb(182, 182, 250);
-      
-        
-    
-    }
+   
     
     /*todo el css aplicado a la imagen principal
     */
