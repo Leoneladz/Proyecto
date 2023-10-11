@@ -19,7 +19,7 @@ h2 {
 .menu {
     margin: 0;
     margin-top: 10px;
-    background-color: rgb(149, 34, 243);
+    background-color: rgb(169, 66, 230);
     
   
     
@@ -102,9 +102,9 @@ nav {
     
 .row {
     margin-top: 20px;
-
+    background-color: #be92e7;
+    align-items: center;
 }
-
 
 
 img {
