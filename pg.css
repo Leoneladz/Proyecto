@@ -2,7 +2,12 @@ body {
     background-color: rgb(184, 153, 224);
 }
 
+.dropdown-item{
+    font-weight: bolder;
+}
+
 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24;
     font-weight: bolder;
     text-decoration: underline;
@@ -20,10 +25,6 @@ h2 {
     margin: 0;
     margin-top: 10px;
     background-color: rgb(169, 66, 230);
-    
-  
-    
-
 }
 /* organización de los items que estan como menu
 */
@@ -103,7 +104,15 @@ nav {
 .row {
     margin-top: 20px;
     background-color: #be92e7;
-    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-3{
+    width: 30%;
+}
+
+.col-lg-4{
+    width: 25%;
 }
 
 
@@ -120,6 +129,7 @@ img:hover{
 }
 
 h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
 }
 
@@ -131,6 +141,11 @@ h4 {
 
 }
 
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .dropdown {
     margin-top: 10px;
 }
@@ -140,12 +155,6 @@ a {
     margin-left: 10px;
 }
 
-div {
-    margin-right: 10px;
-    margin-left: 100px;
-}
-
-
 
 .form-check {
     margin-left: 0px;
@@ -153,6 +162,12 @@ div {
 
 #Button {
     text-align: end;
+}
+
+.mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+    margin-top: 10px;
 }
 
 
@@ -170,4 +185,37 @@ footer a {
     margin-top: 20px;
 
 
+}
+
+@media screen and (min-width: 0px) and (max-width: 672px) {
+    .encabezado-img{
+        background-image: url(img.logo/android-chrome-512x512.png);
+    }
+    .card{
+        width: 90%
+    }
+    .col-lg-3{
+        width: 90%;
+    }
+    .col-lg-4{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 673px) and (max-width: 990px) {
+    .card{
+        width: 100%
+    }
+    #section{
+        width:40%;
+    }
+    .row{
+        justify-content: center;
+    }
+    .col-lg-3{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: 50%;
+    }
 }
