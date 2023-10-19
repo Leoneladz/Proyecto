@@ -2,8 +2,47 @@ body {
     background-color: rgb(184, 153, 224);
 }
 
+
+.container-boton{
+    display: flex;
+    
+    background-color: #60089b;
+    background-size: 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius:  30%;
+    bottom: 10px;
+    right: 20px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efecto 2s infinite;
+   }
+
+.container-boton:hover{
+transform: scale(1.1);
+transition: 0.3s;
+}
+
+.carro{
+   width: 60px;
+   height: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgb(99, 49, 146);
+    }
+    100%{
+        box-shadow: 0 0 0 20px rgb(158, 95, 218);
+    }
+}
 .dropdown-item{
     font-weight: bolder;
+   
+    
 }
 
 h1 {
@@ -21,10 +60,15 @@ h2 {
     text-decoration:wavy;
     text-align: center;
 }
+
+
 .menu {
     margin: 0;
     margin-top: 10px;
+    
     background-color: rgb(169, 66, 230);
+
+    
 }
 /* organización de los items que estan como menu
 */
@@ -144,6 +188,12 @@ h4 {
 .card{
     padding: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(99, 49, 146);
+    background-color: #c9b4e6;
+}
+
+.card:hover{
+    background-color: #c198e7;
 }
 
 .dropdown {
