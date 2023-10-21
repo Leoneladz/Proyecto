@@ -96,9 +96,10 @@ function agregarItemAlCarrito(titulo, precio, codigoItem){
     var itemCarritoContenido = `
         <div class="carrito-item">
                 <div class="carrito-item-detalles">
-                <span class="carrito-item-titulo">${titulo}</span>
+               <p> 
+               <span class="carrito-item-titulo">${titulo}</span>
                 <span class="carrito-item-codigo">${codigoItem}</span>
-                <br>
+                </p>
                 <div class="selector-cantidad">
                     <i class="fa-solid fa-minus restar-cantidad"></i>
                     <input type="text" value="1" class="carrito-item-cantidad" disabled>
@@ -107,8 +108,9 @@ function agregarItemAlCarrito(titulo, precio, codigoItem){
                 <span class="carrito-item-precio">${precio}</span>
             </div>
             <button class="btn-eliminar">
-                <i class="fa-solid fa-trash"></i>
+            <i class="fa-solid fa-trash-can"></i>
             </button>
+            </div>
         </div>
     `
     item.innerHTML = itemCarritoContenido;
