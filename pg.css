@@ -205,14 +205,10 @@ a {
 #btn-obtener{
     width: 800px;
     height: 400px;
-    
+    background-color: #9e65e9;
     }
 
-#mostrar-user{
-    width: 800px;
-    height: 400px;
-   
-}
+
 
 footer p {
     margin: 10px;
