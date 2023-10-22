@@ -194,12 +194,15 @@ a {
     text-align: end;
 }
 
+.carrito{
+    margin-top: 100px;
+}
+
 .mapa iframe{
     width: 100%;
     aspect-ratio: 1.2;
     margin-top: 10px;
 }
-
 
 footer p {
     margin: 10px;
