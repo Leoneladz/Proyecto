@@ -67,6 +67,7 @@ function agregarAlCarritoClicked(event){
     hacerVisibleCarrito();
 }
 
+
 //Funcion que hace visible el carrito
 function hacerVisibleCarrito(){
     carritoVisible = true;

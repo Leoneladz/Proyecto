@@ -6,42 +6,6 @@ body {
     position: fixed;
 }
 
-.container-boton{
-    display: flex;
-    
-    background-color: #60089b;
-    background-size: 20px;
-    text-decoration: none;
-    border: 1px solid #fff;
-    position: fixed;
-    z-index: 999;
-    border-radius:  30%;
-    bottom: 10px;
-    right: 20px;
-    padding: 10px;
-    transition: ease 0.3s;
-    animation: efecto 2s infinite;
-   }
-
-.container-boton:hover{
-transform: scale(1.1);
-transition: 0.3s;
-}
-
-.carro{
-   width: 60px;
-   height: 60px;
-    transition: ease 1s;
-}
-
-@keyframes efecto{
-    0%{
-        box-shadow: 0 0 0 0 rgb(99, 49, 146);
-    }
-    100%{
-        box-shadow: 0 0 0 20px rgb(158, 95, 218);
-    }
-}
 .dropdown-item{
     font-weight: bolder;
    
@@ -134,9 +98,22 @@ nav {
     }
  /*imagen de descuento
     */
-    .encabezado-descuento{
+    .encabezado-ropa-moda{
         display: flex;
-        background-image: url(img.logo/descuento-2.png);
+        background-image: url(img.logo/ropa\ y\ calzado\ banner.png);
+        margin: 0;
+        margin-top: 10px;
+        height: 450px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #1d0236;
+        
+    }
+    .encabezado-maquillaje-perfume{
+        display: flex;
+        background-image: url(img.logo/maquillaje\ y\ perfumes\ banner.png);
         margin: 0;
         margin-top: 10px;
         height: 450px;
@@ -399,7 +376,7 @@ footer a {
 
 .carrito-total{
     background-color: #b766dd;
-    padding: 30px;
+    padding: 10px;
 }
 .carrito-total .fila{
     display: flex;
@@ -407,6 +384,7 @@ footer a {
     align-items: center;
     font-size: 22px;
     font-weight: bold;
+    margin: 10px;
     margin-bottom: 10px;
 }
 .carrito-total .btn-pagar{
