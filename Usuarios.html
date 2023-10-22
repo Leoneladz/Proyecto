@@ -14,30 +14,37 @@
 </head>
 
 <body>
-    
     <header class="encabezado">
-        <div class="Menu">
 
-            <nav>
 
-                <ul>
-                    <li><a class="dropdown-item" href="Index.html">Pagina principal</a></li>
-                    <li><a class="dropdown-item" href="Maquillaje.html">Maquillaje</a></li>
-                    <li><a class="dropdown-item" href="Perfumes.html">Perfumes</a></li>
-                    <li><a class="dropdown-item" href="Moda.html">Moda</a></li>
-                    <li><a class="dropdown-item" href="Ropa.html">Ropa y Zapatos</a></li>
-                    <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
-                    
-                </ul>
-            </nav>
+        <div class="menu">
+          <nav>
+            <h2>usuario</h2>
+            <ul>
+              <li><a class="dropdown-item" href="Index.html">Página principal</a></li>
+              <li><a class="dropdown-item" href="Maquillaje.html">Maquillaje</a></li>
+              <li><a class="dropdown-item" href="Perfumes.html">Perfumes</a></li>
+              <li><a class="dropdown-item" href="Moda.html">Moda</a></li>
+              <li><a class="dropdown-item" href="Ropa.html">Ropa y Zapatos</a></li>
+              <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
+              
+            </ul>
+          </nav>
         </div>
-        <h1>Obtener usuario</h1>
-        <div class="container my-5 text-center">
+        <div class="encabezado-img">
+        </div>
+    
+      </header>
+      <br>
+        <h2>Obtener usuario</h2>
+        
+        <div class="container my-5 text-center" id="btn-obtener">
             <button class="btn btn-danger w-100" onclick="traer()">Obtener</button>
             <div class="mt-5" id="contenido">
             </div>
         </div>
-
+       
+        <div class="usuario-mostrar" id="mostrar-user">
         <script>
             var contenido = document.querySelector('#contenido');
 
@@ -61,6 +68,7 @@
                     })
             }
         </script>
+      </div>
 </body>
 
 </html>

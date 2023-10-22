@@ -194,14 +194,24 @@ a {
     text-align: end;
 }
 
-.carrito{
-    margin-top: 100px;
-}
+
 
 .mapa iframe{
     width: 100%;
     aspect-ratio: 1.2;
     margin-top: 10px;
+}
+
+#btn-obtener{
+    width: 800px;
+    height: 400px;
+    
+    }
+
+#mostrar-user{
+    width: 800px;
+    height: 400px;
+   
 }
 
 footer p {
