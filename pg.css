@@ -29,6 +29,50 @@ h2 {
 }
 
 
+.principal {
+    margin: 0;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgb(169, 66, 230);
+
+    
+}
+.principal nav {
+    display: flex ;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5% ;
+    padding-right: 5% ;
+    margin: 0 ;
+    height: 50px;
+    }
+
+.principal nav a{
+    display: inline-block;
+    align-items: center;
+    color: white;
+    text-decoration:none;
+
+}
+.principal ul li{
+    display: inline-block;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.principal nav ul li:hover{
+    background-color: #9e65e9;
+    color: #fff;
+    border-radius: 20px;
+   
+   
+}
+/* organización de los items que estan como menu
+*/
 .menu {
     margin: 0;
     margin-top: 10px;
@@ -37,9 +81,7 @@ h2 {
 
     
 }
-/* organización de los items que estan como menu
-*/
-nav {
+.menu nav {
     display: flex ;
     font-weight: bold;
     text-align: center;
@@ -52,7 +94,7 @@ nav {
     height: 50px;
     }
     
-    ul li{
+    .menu ul li{
         display: inline-block;
         padding: 0px 0px;
         align-items: center;
@@ -62,16 +104,17 @@ nav {
     
     /*color del texto dentro del nav
     */
-    nav a{
+    .menu nav a{
         
         color: white;
         text-decoration:none;
     
     }
     
+   
     /*efecto que obtiene el menu cuando se sobrepone el mouse antes de dar click
     */
-    nav ul li:hover{
+   .menu nav ul li:hover{
         background-color: #9e65e9;
         color: #fff;
         border-radius: 20px;
